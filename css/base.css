@@ -1,0 +1,10 @@
+* {
+    font-family: monospace;
+    text-align: center;
+}
+
+@media (min-width: 960px) {
+    * {
+        font-family: monospace;
+        text-align: center;
+    }
