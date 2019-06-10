@@ -1,9 +1,13 @@
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     width: 500px;
     color: black;
     margin: 0 auto;
 }
 #a {
+    order: inherit;
     height: 75px;
     width: auto;
     line-height: 75px;
@@ -33,14 +37,14 @@
     width: 250px;
     line-height: 240px;
     background-color: #8D2911;
-    float: left;
+    /* float: left; */
 }
 #f {
     height: 240px;
     width: 250px;
     line-height: 240px;
     background-color: #D05F10;
-    float: right;
+    /* float: right; */
 
 }
 #g {
@@ -48,14 +52,14 @@
     width: 250px;
     line-height: 240px;
     background-color: #D08812;
-    float: left;
+    /* float: left; */
 }
 #h {
     height: 240px;
     width: 250px;
     line-height: 240px;
     background-color: #735911;
-    float: right;
+    /* float: right; */
 }
 footer {
     clear: both;
@@ -75,6 +79,9 @@ footer {
     }
     
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     width: 960px;
     color: black;
     margin: 0 auto;
@@ -90,21 +97,21 @@ footer {
     width: 200px;
     height: 600px;
     line-height: 600px;
-    background-color: #115943;
-    float: left;
+    /* background-color: #115943;
+    float: left; */
 }
 #c {
     width: 380px;
     height: 200px;
     line-height: 200px;
-    float: left;
+    /* float: left; */
     background-color: #8D2911
 }
 #d {
     width: 380px;
     height: 200px;
     line-height: 200px;
-    float: left;
+    /* float: left; */
     background-color: #735911;
 }
 
@@ -113,14 +120,14 @@ footer {
     width: 190px;
     line-height: 190px;
     background-color: #345421;
-    float: left;
+    /* float: left; */
 }
 #f {
     height: 250px;
     width: 190px;
     line-height: 190px;
     background-color: #985909;
-    float: left;
+    /* float: left; */
 
 }
 #g {
@@ -128,15 +135,15 @@ footer {
     width: 190px;
     line-height: 190px;
     background-color: rgb(102, 48, 25);
-    float: left;
+    /* float: left; */
 }
 #h {
     height: 250px;
     width: 190px;
     line-height: 190px;
     background-color: #D08812;
-    float: left;
-}
+    /* float: left;
+} */
 
 footer {
     clear: none;
